@@ -9,11 +9,7 @@
 </head>
 <body>
 
-<h2>Project Intent</h2>
-<div class="linkedin_btn">
-	<s:url action="welcome.action" var="url" ></s:url>
-	<s:a href="%{url}"><img src="images/linkedin_btn.png"/></s:a>
-</div>
+<h1>Welcome Home</h1>
 
 </body>
 </html>

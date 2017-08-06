@@ -5,9 +5,12 @@
 
 <struts>
 	<constant name="struts.devMode" value="true" />
+	
 	<package name="login" extends="struts-default">
-		<action name="welcome" class="com.intent.project.action.WelcomeAction" method="execute">
-			<result name="SUCCESS">/welcomeUser.html</result>
+		<action name="welcome" class="com.intent.project.action.LoginAction" method="execute">
+			<result name="SUCCESS" type="redirect">
+				<param name="location">${URL}</param>
+			</result>
 		</action>
 	</package>
 </struts>
