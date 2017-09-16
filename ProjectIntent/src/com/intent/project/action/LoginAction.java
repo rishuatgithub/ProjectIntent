@@ -2,6 +2,11 @@ package com.intent.project.action;
 
 import com.intent.project.login.linkedin.LinkedInParameters;
 
+/**
+ * Login Action for LinkedIn
+ * @author Rishu
+ *
+ */
 public class LoginAction {
 	
 	private String URL;
